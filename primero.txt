@@ -2,6 +2,6 @@ Hola
 
 Soy Camilo Rodíguez, estamos probando git * github.com
 
-bye!
+Adios!
 
-un mensaje faltante
+Ya el mensaje no  falta.
