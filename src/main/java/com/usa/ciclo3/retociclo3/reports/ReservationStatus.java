@@ -2,11 +2,11 @@ package com.usa.ciclo3.retociclo3.reports;
 
 public class ReservationStatus {
     private Integer completed;
-    private Integer canceled;
+    private Integer cancelled;
 
-    public ReservationStatus(Integer completed, Integer canceled) {
+    public ReservationStatus(Integer completed, Integer cancelled) {
         this.completed = completed;
-        this.canceled = canceled;
+        this.cancelled = cancelled;
     }
 
     public Integer getCompleted() {
@@ -17,11 +17,11 @@ public class ReservationStatus {
         this.completed = completed;
     }
 
-    public Integer getCanceled() {
-        return canceled;
+    public Integer getCancelled() {
+        return cancelled;
     }
 
-    public void setCanceled(Integer canceled) {
-        this.canceled = canceled;
+    public void setCancelled(Integer cancelled) {
+        this.cancelled = cancelled;
     }
 }
